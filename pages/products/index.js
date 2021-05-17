@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Layout from "components/layout";
 
 import CardProduct from "components/cardLama";
-import NoData from "components/NoData";
+import NoData from "components/noData";
 
 import { useAppContext } from "context/state";
 
