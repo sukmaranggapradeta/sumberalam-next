@@ -1,4 +1,4 @@
-import SEO from "../SEO";
+import SEO from "../seo";
 // import Navigation from "../components/Navigation";
 import NavBar from "components/header";
 import Footer from "components/footer";
