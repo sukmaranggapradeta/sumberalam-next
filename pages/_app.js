@@ -1,6 +1,6 @@
-// import "../styles/custom.css";
+import "../styles/custom.css";
 import "tailwindcss/tailwind.css";
-// import "../styles/styles.css";
+import "../styles/styles.css";
 
 import { AppWrapper } from "../context/state";
 
