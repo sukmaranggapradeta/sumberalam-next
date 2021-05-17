@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import { useAppContext } from "context/state";
 
 export default function index({ postList }) {
@@ -36,28 +36,28 @@ export default function index({ postList }) {
                   key={i}
                 >
                   <div className="mx-3 wrapper-icon-small">
-                    <img src={`/icon/${item.icon}`} alt={item.code} />
-                    {/* <Image
+                    {/* <img src={`/icon/${item.icon}`} alt={item.code} /> */}
+                    <Image
                       alt={item.code}
                       src={`/icon/${item.icon}`}
                       height={32}
                       width={32}
                       // layout="responsive"
                       priority
-                    /> */}
+                    />
                   </div>
                 </a>
               ) : (
                 <div className="mx-3 wrapper-icon-small">
-                  <img src={`/icon/${item.icon}`} alt={item.code} />
-                  {/* <Image
+                  {/* <img src={`/icon/${item.icon}`} alt={item.code} /> */}
+                  <Image
                     alt={item.code}
                     src={`/icon/${item.icon}`}
                     height={32}
                     width={32}
                     // layout="responsive"
                     priority
-                  /> */}
+                  />
                 </div>
               )
             )}

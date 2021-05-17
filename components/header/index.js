@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -64,20 +64,20 @@ export default function Header() {
             </div>
             <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex-shrink-0 flex items-center">
-                <img
+                {/* <img
                   src="/images/sumberalam.png"
                   alt={"sumber alam"}
                   height={32}
                   width={32}
-                />
-                {/* <Image
+                /> */}
+                <Image
                   priority
                   src="/images/sumberalam.png"
                   // classNameName={"block lg:hidden h-8 w-auto"}
                   height={32}
                   width={32}
                   alt={"sumber alam"}
-                /> */}
+                />
               </div>
               <div className="hidden sm:block sm:ml-6">
                 <div className="flex space-x-4">
