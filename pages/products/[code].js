@@ -40,19 +40,19 @@ export default function ProductDetail({ title, description, image }) {
                 <div className="h-72 md:h-96 relative w-auto">
                   <img
                     className="d-block w-full"
-                    src={image ? `/${image}` : "/images/home-img1.jpg"}
+                    src="https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-andesit.jpg?raw=true"
                     alt={title}
                   />
                   {/* <Image
                     className="d-block w-full"
                     alt={title}
-                    src={image ? `/${image}` : "/images/home-img1.jpg"}
+                     src={image ? `/${image}` : "/images/home-img1.jpg"}
                     height={400}
                     width={400}
-                    // layout="fill"
-                    // objectFit="contain"
-                    // quality={100}
-                    // priority
+                    layout="fill"
+                    objectFit="contain"
+                    quality={100}
+                    priority
                   /> */}
                 </div>
                 <div className="w-full justify-content-center">

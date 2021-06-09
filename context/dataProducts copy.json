@@ -1,9 +1,9 @@
 [
     {
        "code":"palimanan-cirebon",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-palimanan.jpg?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-palimanan.jpg?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Palimanan Cirebon",
        "desc":"Batu Alam Palimanan dijadikan favorit banyak orang karena tergolong bebatuan alam yang memiliki motif yang menarik.",
@@ -29,9 +29,9 @@
     },
     {
        "code":"palimanan-palem",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/palimanan-palem.jpg?raw=true",
+       "thumbnail":"products/palimanan-palem.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/palimanan-palem.jpg?raw=true"
+          "products/palimanan-palem.jpg"
        ],
        "title":"Palimanan Palem",
        "desc":"Batu Alam Palimanan dijadikan favorit banyak orang karena tergolong bebatuan alam yang memiliki motif yang menarik.",
@@ -57,9 +57,9 @@
     },
     {
        "code":"palimanan-cacing",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/palimanan-cacing.jpg?raw=true",
+       "thumbnail":"products/palimanan-cacing.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/palimanan-cacing.jpg?raw=true"
+          "products/palimanan-cacing.jpg"
        ],
        "title":"Palimanan Cacing",
        "desc":"Batu Alam Palimanan dijadikan favorit banyak orang karena tergolong bebatuan alam yang memiliki motif yang menarik.",
@@ -108,9 +108,9 @@
     },
     {
        "code":"palimanan-batu-putih-super",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-putih.jpg?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-putih.jpg?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Palimanan Batu Putih Super",
        "desc":"Batu Alam Palimanan dijadikan favorit banyak orang karena tergolong bebatuan alam yang memiliki motif yang menarik.",
@@ -154,9 +154,9 @@
     },
     {
        "code":"marmer",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/marmer-bakar.jpg?raw=true",
+       "thumbnail":"products/marmer-bakar.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/marmer-bakar.jpg?raw=true"
+          "products/marmer-bakar.jpg"
        ],
        "title":"Marmer",
        "desc":"Batu Alam Marmer dijadikan favorit banyak orang karena tergolong bebatuan alam yang memiliki motif yang menarik.",
@@ -177,9 +177,9 @@
     },
     {
        "code":"batu-alam-putih",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-putih.jpg?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-putih.jpg?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Batu Alam Putih",
        "desc":"short description",
@@ -188,9 +188,9 @@
     },
     {
        "code":"candi",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-candi.jpg?raw=true",
+       "thumbnail":"products/batu-alam-candi.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-candi.jpg?raw=true"
+          "products/batu-alam-candi.jpg"
        ],
        "title":"Candi",
        "desc":"Batu Alam Candi",
@@ -271,9 +271,9 @@
     },
     {
        "code":"alur-candi-lurus",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/candi-alur-lurus.jpg?raw=true",
+       "thumbnail":"products/candi-alur-lurus.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/candi-alur-lurus.jpg?raw=true"
+          "products/candi-alur-lurus.jpg"
        ],
        "title":"Alur Candi Lurus",
        "desc":"Batu Alam Alur Candi Lurus",
@@ -294,9 +294,9 @@
     },
     {
        "code":"alur-candi-acak",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/alur-candi-acak.jpg?raw=true",
+       "thumbnail":"products/alur-candi-acak.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/alur-candi-acak.jpg?raw=true"
+          "products/alur-candi-acak.jpg"
        ],
        "title":"Alur Candi Acak",
        "desc":"Batu Alam Alur Candi Acak",
@@ -317,9 +317,9 @@
     },
     {
        "code":"batu-alam-bali-green",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-bali-green.jpg?raw=true",
+       "thumbnail":"products/batu-alam-bali-green.jpg?raw=true",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-bali-green.jpg?raw=true"
+          "products/batu-alam-bali-green.jpg?raw=true"
        ],
        "title":"Batu Alam Bali Green",
        "desc":"short description",
@@ -335,9 +335,9 @@
     },
     {
        "code":"batu-pilah-hitam",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/DSC00587.JPG?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/DSC00587.JPG?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Batu Pilah Hitam",
        "desc":"Batu Alam Pilah Hitam atau Black Stone",
@@ -393,9 +393,9 @@
     },
     {
        "code":"batu-pilah-jember",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-pilah-jember.jpg?raw=true",
+       "thumbnail":"products/batu-pilah-jember.jpeg?raw=true",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-pilah-jember.jpg?raw=true"
+          "products/batu-pilah-jember.jpeg?raw=true"
        ],
        "title":"Batu Pilah Jember",
        "desc":"Batu Alam Pilah Jember",
@@ -451,9 +451,9 @@
     },
     {
        "code":"batu-hijau-rts",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-hijau-rts.jpg?raw=true.jpg",
+       "thumbnail":"products/batu-hijau-rts.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-hijau-rts.jpg?raw=true.jpg"
+          "products/batu-hijau-rts.jpg"
        ],
        "title":"Batu Hijau RTS",
        "desc":"short description",
@@ -502,9 +502,9 @@
     },
     {
        "code":"bali-green-alur-lurus",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/DSC_1391.psd.jpg?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/DSC_1391.psd.jpg?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Bali Green Alur Lurus",
        "desc":"short description",
@@ -525,9 +525,9 @@
     },
     {
        "code":"bali-green-alur-acak",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/IMG01085-20110417-1530.jpg?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/IMG01085-20110417-1530.jpg?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Bali Green Alur Acak",
        "desc":"short description",
@@ -571,9 +571,9 @@
     },
     {
        "code":"batu-alam-emping",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-emping.jpg?raw=true",
+       "thumbnail":"products/batu-alam-emping.jpg?raw=true",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-emping.jpg?raw=true"
+          "products/batu-alam-emping.jpg?raw=true"
        ],
        "title":"Batu Alam Emping",
        "desc":"short description",
@@ -582,9 +582,9 @@
     },
     {
        "code":"andesit-polos-bakar",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/andesit-hitam-bakar.jpg?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/andesit-hitam-bakar.jpg?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Andesit Polos Bakar",
        "desc":"Batu alam andesit kerap dijadikan pilihan favorit para desainer rumah karena kualitasnya yang unggul. Batu ini tahan lama, kokoh, dan bisa digunakan di berbagai area rumah seperti pagar, taman, dinding, dan kolam renang.",
@@ -593,9 +593,9 @@
     },
     {
        "code":"andesit-bakar-bintik-abu",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/andesit-bakar-abu.jpg?raw=true",
+       "thumbnail":"products/andesit-bakar-abu.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/andesit-bakar-abu.jpg?raw=true"
+          "products/andesit-bakar-abu.jpg"
        ],
        "title":"Andesit Bakar Bintik Abu",
        "desc":"Batu alam andesit kerap dijadikan pilihan favorit para desainer rumah karena kualitasnya yang unggul. Batu ini tahan lama, kokoh, dan bisa digunakan di berbagai area rumah seperti pagar, taman, dinding, dan kolam renang.",
@@ -626,9 +626,9 @@
     },
     {
        "code":"andesit-hitam-bakar",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/andesit-hitam-bakar.jpg?raw=true",
+       "thumbnail":"products/andesit-hitam-bakar.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/andesit-hitam-bakar.jpg?raw=true"
+          "products/andesit-hitam-bakar.jpg"
        ],
        "title":"Andesit Hitam Bakar",
        "desc":"Batu alam andesit kerap dijadikan pilihan favorit para desainer rumah karena kualitasnya yang unggul. Batu ini tahan lama, kokoh, dan bisa digunakan di berbagai area rumah seperti pagar, taman, dinding, dan kolam renang.",
@@ -659,9 +659,9 @@
     },
     {
        "code":"andesit-rts-susun-sirih",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-andesit.jpg?raw=true",
+       "thumbnail":"products/andesit-hitam-rts.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-andesit.jpg?raw=true"
+          "products/andesit-hitam-rts.jpg"
        ],
        "title":"Andesit RTS Susun Sirih",
        "desc":"Batu alam andesit kerap dijadikan pilihan favorit para desainer rumah karena kualitasnya yang unggul. Batu ini tahan lama, kokoh, dan bisa digunakan di berbagai area rumah seperti pagar, taman, dinding, dan kolam renang.",
@@ -671,20 +671,20 @@
           {
              "p":"3 cm",
              "l":"40 cm",
-             "t":"3-5 cm"
+             "t":"images/no-image.svg"
           },
           {
              "p":"5 cm",
              "l":"40 cm",
-             "t":"3-5 cm"
+             "t":"images/no-image.svg"
           }
        ]
     },
     {
        "code":"batu-alam-serai-rtm",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-serai.jpg?raw=true",
+       "thumbnail":"products/batu-alam-serai-bali.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-serai.jpg?raw=true"
+          "products/batu-alam-serai-bali.jpg"
        ],
        "title":"Batu Alam Serai RTM",
        "desc":"short description",
@@ -700,9 +700,9 @@
     },
     {
        "code":"batu-alam-serai-rts",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/serai%20home4.jpg?raw=true",
+       "thumbnail":"products/batu-alam-serai-bali.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/serai%20home4.jpg?raw=true"
+          "products/batu-alam-serai-bali.jpg"
        ],
        "title":"Batu Alam Serai RTS",
        "desc":"short description",
@@ -718,9 +718,9 @@
     },
     {
        "code":"batu-alam-pilah",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-pilah.jpg?raw=true",
+       "thumbnail":"products/batu-alam-pilah-jember.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-pilah.jpg?raw=true"
+          "products/batu-alam-pilah-jember.jpg"
        ],
        "title":"Batu Alam Pilah",
        "desc":"short description",
@@ -776,9 +776,9 @@
     },
     {
        "code":"batu-alam-marmo-palimanan",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-marmo-palimanan.jpg?raw=true",
+       "thumbnail":"products/batu-alam-marmo-palimanan.jpg?raw=true",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-marmo-palimanan.jpg?raw=true"
+          "products/batu-alam-marmo-palimanan.jpg?raw=true"
        ],
        "title":"Marmo Palimanan",
        "desc":"short description",
@@ -804,9 +804,9 @@
     },
     {
        "code":"palimanan-rts",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/palimanan-rts.jpg?raw=true",
+       "thumbnail":"products/palimanan-rts.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/palimanan-rts.jpg?raw=true"
+          "products/palimanan-rts.jpg"
        ],
        "title":"Palimanan RTS",
        "desc":"short description",
@@ -888,9 +888,9 @@
     },
     {
        "code":"kobel-stun",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/kobel-stone.jpg?raw=true",
+       "thumbnail":"products/kobel-stone.jpg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/kobel-stone.jpg?raw=true"
+          "products/kobel-stone.jpg"
        ],
        "title":"Kobel Stun",
        "desc":"Batu Alam Kobel Stun",
@@ -906,9 +906,9 @@
     },
     {
        "code":"batu-alam-paras-kerobokan",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-paras-kerobokan.jpg?raw=true",
+       "thumbnail":"products/batu-alam-paras-kerobokan.jpg?raw=true",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-paras-kerobokan.jpg?raw=true"
+          "products/batu-alam-paras-kerobokan.jpg?raw=true"
        ],
        "title":"Batu Alam Paras Kerobokan",
        "desc":"short description",
@@ -942,9 +942,9 @@
     },
     {
        "code":"bukit-putih",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/20140604_091645.jpg?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/20140604_091645.jpg?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Batu Alam Random Bukit Putih",
        "desc":"short description",
@@ -960,9 +960,9 @@
     },
     {
        "code":"bukit-kipas",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/20140604_091645.jpg?raw=true",
+       "thumbnail":"images/no-image.svg",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/20140604_091645.jpg?raw=true"
+          "images/no-image.svg"
        ],
        "title":"Batu Alam Random Bukit Kipas",
        "desc":"short description",
@@ -978,9 +978,9 @@
     },
     {
        "code":"lampu-batu-alam",
-       "thumbnail":"https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/lampu-batu-alam.jpeg?raw=true",
+       "thumbnail":"products/lampu-batu-alam.jpeg?raw=true",
        "sample":[
-          "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/lampu-batu-alam.jpeg?raw=true"
+          "products/lampu-batu-alam.jpeg?raw=true"
        ],
        "title":"Lampu Batu Alam",
        "desc":"short description",

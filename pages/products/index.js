@@ -4,7 +4,9 @@ import Layout from "components/layout";
 import CardProduct from "components/cardLama";
 import NoData from "components/noData";
 
-import { useAppContext } from "context/state";
+// import { useAppContext } from "context/state";
+
+import dataProducts from "context/dataProducts.json";
 
 // export async function getStaticProps() {
 //   const { dataSosmed } = useAppContext();
@@ -23,7 +25,7 @@ import { useAppContext } from "context/state";
 // }
 
 export default function products() {
-  const { dataProducts } = useAppContext();
+  // const { dataProducts } = useAppContext();
   const [searchInput, setSearchInput] = useState("");
 
   const pageMeta = {
