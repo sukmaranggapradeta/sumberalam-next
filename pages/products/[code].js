@@ -40,7 +40,7 @@ export default function ProductDetail({ title, description, image }) {
                 <div className="h-72 md:h-96 relative w-auto">
                   <img
                     className="d-block w-full"
-                    src="https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/small/batu-alam-andesit.jpg?raw=true"
+                    src={image ? image : "/images/home-img1.jpg"}
                     alt={title}
                   />
                   {/* <Image
