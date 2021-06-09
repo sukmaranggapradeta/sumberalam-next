@@ -1,87 +1,70 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { useRouter } from "next/router";
 import Layout from "components/layout";
 // import NoData from "components/NoData";
 import styles from "styles/Home.module.css";
-import { useAppContext } from "context/state";
-// import Image from "next/image";
+// import { useAppContext } from "context/state";
+import Image from "next/image";
+import dataProducts from "context/dataProducts.json";
 
-export default function ProductDetail() {
+export default function ProductDetail({ title, description, image }) {
   const router = useRouter();
   const { code } = router.query;
-  const { dataProducts } = useAppContext();
+  // const { dataProducts } = useAppContext();
 
   useEffect(() => {
     console.log("dataProducts", dataProducts);
+    // console.log("props", props);
     console.log("code", code);
   }, []);
 
   const pageMeta = {
-    title: code ? code : "",
-    description: code
-      ? dataProducts.filter(item => item.code === code)[0].desc
-      : "",
-    image: code
-      ? dataProducts.filter(item => item.code === code)[0].thumbnail
-      : "",
+    title: title,
+    description: description,
+    image: image,
   };
+
+  // If the page is not yet generated, this will be displayed
+  // initially until getStaticProps() finishes running
+  if (router.isFallback) {
+    return <div>Loading Page Data...</div>;
+  }
 
   return (
     <Layout pageMeta={pageMeta}>
       <section className="flex flex-col w-full">
         <div className="flex">
           {dataProducts.filter(item => item.code === code).length > 0 && (
-            <div className="flex flex-col md:flex-row space-x-0 md:space-x-8">
+            <div className="flex flex-col md:flex-row space-x-0 md:space-x-8 w-full">
               <div className="flex-1">
                 <div className="h-72 md:h-96 relative w-auto">
                   <img
-                    className="d-block w-100"
-                    src={
-                      dataProducts.filter(item => item.code === code)[0]
-                        .thumbnail
-                        ? `/${
-                            dataProducts.filter(item => item.code === code)[0]
-                              .thumbnail
-                          }`
-                        : "/images/home-img1.jpg"
-                    }
-                    alt={"item"}
+                    className="d-block w-full"
+                    src={image ? `/${image}` : "/images/home-img1.jpg"}
+                    alt={title}
                   />
                   {/* <Image
-                    alt="Mountains"
-                    src={
-                      dataProducts.filter(item => item.code === code)[0]
-                        .thumbnail
-                        ? `/${
-                            dataProducts.filter(item => item.code === code)[0]
-                              .thumbnail
-                          }`
-                        : "/images/home-img1.jpg"
-                    }
-                    layout="fill"
-                    objectFit="contain"
-                    quality={100}
-                    priority
-                  /> */}
-                </div>
-                <div className="w-100 justify-content-center">
-                  {/* <Image
-                    priority
-                    src={
-                      dataProducts.filter(item => item.code === code)[0]
-                        .thumbnail
-                        ? `/${
-                            dataProducts.filter(item => item.code === code)[0]
-                              .thumbnail
-                          }`
-                        : "/images/home-img1.jpg"
-                    }
-                    // classNameName={"block lg:hidden h-8 w-auto"}
-                    height={1080}
-                    width={810}
+                    className="d-block w-full"
+                    alt={title}
+                    src={image ? `/${image}` : "/images/home-img1.jpg"}
+                    height={400}
+                    width={400}
                     // layout="fill"
                     // objectFit="contain"
-                    alt={"sumber alam"}
+                    // quality={100}
+                    // priority
+                  /> */}
+                </div>
+                <div className="w-full justify-content-center">
+                  {/* <Image
+                    priority
+                    src={image ? `/${image}` : "/images/home-img1.jpg"}
+                    // classNameName={"block lg:hidden h-8 w-auto"}
+                    height={400}
+                    width={400}
+                    // layout="fill"
+                    // objectFit="contain"
+                    // alt={title}
                   /> */}
                   {/* <Carousel className="mb-2" indicators={false}>
                       {dataProducts.filter(item => item.code === code)[0]
@@ -91,7 +74,7 @@ export default function ProductDetail() {
                           .sample.map((item, i) => (
                             <Carousel.Item key={i}>
                               <img
-                                className="d-block w-100"
+                                className="d-block w-full"
                                 src={require(`img/products/small/${item}`)}
                                 alt={item}
                               />
@@ -104,12 +87,12 @@ export default function ProductDetail() {
                 <h1
                   className={`${styles.title} text-xl md:text-3xl my-3 md:my-4`}
                 >
-                  {dataProducts.filter(item => item.code === code)[0].title}
+                  {title}
                 </h1>
                 <div className="line-title w-2/5 " />
-                <p>{dataProducts.filter(item => item.code === code)[0].desc}</p>
+                <p>{description}</p>
 
-                <p>
+                {/* <p>
                   {dataProducts.filter(item => item.code === code)[0].desc2 &&
                     dataProducts.filter(item => item.code === code)[0].desc2}
                 </p>
@@ -117,7 +100,7 @@ export default function ProductDetail() {
                 <p>
                   {dataProducts.filter(item => item.code === code)[0].desc3 &&
                     dataProducts.filter(item => item.code === code)[0].desc3}
-                </p>
+                </p> */}
 
                 <div
                   className={`${styles.title} text-xl md:text-3xl my-3 md:my-4`}
@@ -221,4 +204,40 @@ export default function ProductDetail() {
       </section>
     </Layout>
   );
+}
+
+// // This function gets called at build time on server-side.
+// // It may be called again, on a serverless function, if
+// // the path has not been generated.
+export async function getStaticPaths() {
+  // const paths = ["/products/palimanan-palem", "/products/palimanan"];
+
+  const paths = dataProducts.map(data => {
+    return {
+      params: { code: data.code },
+    };
+  });
+
+  console.log("dataProduct", dataProducts.length);
+  return { paths, fallback: true };
+}
+
+// This function gets called at build time on server-side.
+// It may be called again, on a serverless function, if
+// revalidation is enabled and a new request comes in
+export async function getStaticProps({ query, params }) {
+  const { code } = query || params;
+
+  const title = code;
+  const description = dataProducts.filter(item => item.code === code)[0].desc;
+  const image = dataProducts.filter(item => item.code === code)[0].thumbnail;
+
+  return {
+    props: {
+      dataProducts,
+      title,
+      description,
+      image, // will be passed to the page component as props
+    },
+  };
 }
