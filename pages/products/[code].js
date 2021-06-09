@@ -6,7 +6,7 @@ import styles from "styles/Home.module.css";
 import { useAppContext } from "context/state";
 // import Image from "next/image";
 
-export default function () {
+export default function ProductDetail() {
   const router = useRouter();
   const { code } = router.query;
   const { dataProducts } = useAppContext();
@@ -17,11 +17,13 @@ export default function () {
   }, []);
 
   const pageMeta = {
-    title: "Toko Batu Alam di Bali - Sumber Alam Bali",
-    description:
-      "Toko Batu Alam Terlengkap di bali, kami menyediakan segala jenis batu alam palimanan, candi, andesit, pilah, marmer, ",
-    image:
-      "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/sumberalam-toko.jpeg?raw=true&fit=crop&w=1600&h=800",
+    title: code ? code : "",
+    description: code
+      ? dataProducts.filter(item => item.code === code)[0].desc
+      : "",
+    image: code
+      ? dataProducts.filter(item => item.code === code)[0].thumbnail
+      : "",
   };
 
   return (
@@ -138,7 +140,7 @@ export default function () {
                       dataProducts
                         .filter(item => item.code === code)[0]
                         .size.map((item, i) => (
-                          <tr>
+                          <tr key={i}>
                             <td className="border border-gray-300 text-center">
                               {i + 1}
                             </td>

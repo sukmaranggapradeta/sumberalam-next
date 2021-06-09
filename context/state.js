@@ -9,8 +9,7 @@ export function AppWrapper({ children }) {
         code: "sosmed",
         name: "youtubeIcon",
         icon: "youtube.png",
-        url:
-          "https://www.youtube.com/channel/UCCB77cYeLpq_Ou4zBmSNBxQ?view_as=subscriber",
+        url: "https://www.youtube.com/channel/UCCB77cYeLpq_Ou4zBmSNBxQ?view_as=subscriber",
       },
       {
         code: "sosmed",
@@ -22,22 +21,19 @@ export function AppWrapper({ children }) {
         code: "contact",
         name: "+628123623566 - Bapak Budhi",
         icon: "phone.png",
-        url:
-          "https://api.whatsapp.com/send?phone=628123623566&text=&source=&data=",
+        url: "https://api.whatsapp.com/send?phone=628123623566&text=&source=&data=",
       },
       {
         code: "contact",
         name: "+628124641050 - Ibu Sri",
         icon: "phone.png",
-        url:
-          "https://api.whatsapp.com/send?phone=628124641050&text=&source=&data=",
+        url: "https://api.whatsapp.com/send?phone=628124641050&text=&source=&data=",
       },
       {
         code: "contact",
         name: "+6281339085220 - Rangga",
         icon: "phone.png",
-        url:
-          "https://api.whatsapp.com/send?phone=6281805677132&text=&source=&data=",
+        url: "https://api.whatsapp.com/send?phone=6281805677132&text=&source=&data=",
       },
 
       {
@@ -48,8 +44,7 @@ export function AppWrapper({ children }) {
       },
       {
         code: "location",
-        name:
-          "Sumber Alam - Jl. Prof. Dr. Ida Bagus Mantra No.9x, Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
+        name: "Sumber Alam - Jl. Prof. Dr. Ida Bagus Mantra No.9x, Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
         address:
           "Jl. Prof. Dr. Ida Bagus Mantra No.9x, Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
         icon: "location.png",
@@ -57,8 +52,7 @@ export function AppWrapper({ children }) {
       },
       {
         code: "location",
-        name:
-          "Watu Alam - Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
+        name: "Watu Alam - Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
         address:
           "Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
         icon: "location.png",
@@ -89,8 +83,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "palimanan-palem",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/palimanan-palem.jpg",
+        sample: ["products/palimanan-palem.jpg"],
         title: "Palimanan Palem",
         desc: `Batu Alam Palimanan dijadikan favorit banyak orang karena tergolong bebatuan alam yang memiliki motif yang menarik.`,
         desc2: `      
@@ -110,8 +104,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "palimanan-cacing",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/palimanan-cacing.jpg",
+        sample: ["products/palimanan-cacing.jpg"],
         title: "Palimanan Cacing",
         desc: `Batu Alam Palimanan dijadikan favorit banyak orang karena tergolong bebatuan alam yang memiliki motif yang menarik.`,
         desc2: `      
@@ -192,8 +186,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "marmer",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/marmer-bakar.jpg",
+        sample: ["products/marmer-bakar.jpg"],
         title: "Marmer",
         desc: `Batu Alam Marmer dijadikan favorit banyak orang karena tergolong bebatuan alam yang memiliki motif yang menarik.`,
         desc2: `      
@@ -228,8 +222,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "candi",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/batu-alam-candi.jpg",
+        sample: ["products/batu-alam-candi.jpg"],
         title: "Candi",
         desc: "Batu Alam Candi",
         desc2: `      
@@ -260,8 +254,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "alur-candi-lurus",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/candi-alur-lurus.jpg",
+        sample: ["products/candi-alur-lurus.jpg"],
         title: "Alur Candi Lurus",
         desc: "Batu Alam Alur Candi Lurus",
         desc2: `      
@@ -280,8 +274,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "alur-candi-acak",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/alur-candi-acak.jpg",
+        sample: ["products/alur-candi-acak.jpg"],
         title: "Alur Candi Acak",
         desc: "Batu Alam Alur Candi Acak",
         desc2: `      
@@ -371,8 +365,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "batu-hijau-rts",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/batu-hijau-rts.jpg",
+        sample: ["products/batu-hijau-rts.jpg"],
         title: "Batu Hijau RTS",
         desc: "short description",
         desc2: `      
@@ -506,8 +500,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "andesit-bakar-bintik-abu",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/andesit-bakar-abu.jpg",
+        sample: ["products/andesit-bakar-abu.jpg"],
         title: "Andesit Bakar Bintik Abu",
         desc: `Batu alam andesit kerap dijadikan pilihan favorit para desainer rumah karena kualitasnya yang unggul.
         Batu ini tahan lama, kokoh, dan bisa digunakan di berbagai area rumah seperti pagar, taman, dinding, dan kolam renang.
@@ -530,8 +524,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "andesit-hitam-bakar",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/andesit-hitam-bakar.jpg",
+        sample: ["products/andesit-hitam-bakar.jpg"],
         title: "Andesit Hitam Bakar",
         desc: `Batu alam andesit kerap dijadikan pilihan favorit para desainer rumah karena kualitasnya yang unggul.
         Batu ini tahan lama, kokoh, dan bisa digunakan di berbagai area rumah seperti pagar, taman, dinding, dan kolam renang.
@@ -554,8 +548,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "andesit-rts-susun-sirih",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/andesit-hitam-rts.jpg",
+        sample: ["products/andesit-hitam-rts.jpg"],
         title: "Andesit RTS Susun Sirih",
         desc: `Batu alam andesit kerap dijadikan pilihan favorit para desainer rumah karena kualitasnya yang unggul.
         Batu ini tahan lama, kokoh, dan bisa digunakan di berbagai area rumah seperti pagar, taman, dinding, dan kolam renang.
@@ -576,8 +570,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "batu-alam-serai-rtm",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/batu-alam-serai-bali.jpg",
+        sample: ["products/batu-alam-serai-bali.jpg"],
         title: "Batu Alam Serai RTM",
         desc: "short description",
         desc2: `      
@@ -593,8 +587,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "batu-alam-serai-rts",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/batu-alam-serai-bali.jpg",
+        sample: ["products/batu-alam-serai-bali.jpg"],
         title: "Batu Alam Serai RTS",
         desc: "short description",
         desc2: `      
@@ -610,8 +604,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "batu-alam-pilah",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/batu-alam-pilah-jember.jpg",
+        sample: ["products/batu-alam-pilah-jember.jpg"],
         title: "Batu Alam Pilah",
         desc: "short description",
         desc2: `      
@@ -659,8 +653,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "palimanan-rts",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/palimanan-rts.jpg",
+        sample: ["products/palimanan-rts.jpg"],
         title: "Palimanan RTS",
         desc: "short description",
         desc2: `      
@@ -748,8 +742,8 @@ export function AppWrapper({ children }) {
       },
       {
         code: "kobel-stun",
-        thumbnail: "images/no-image.svg",
-        sample: ["images/no-image.svg"],
+        thumbnail: "products/kobel-stone.jpg",
+        sample: ["products/kobel-stone.jpg"],
         title: "Kobel Stun",
         desc: "Batu Alam Kobel Stun",
         desc2: `      

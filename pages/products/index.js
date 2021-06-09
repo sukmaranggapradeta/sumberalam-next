@@ -27,7 +27,7 @@ export default function products() {
   const [searchInput, setSearchInput] = useState("");
 
   const pageMeta = {
-    title: "Toko Batu Alam di Bali - Sumber Alam Bali",
+    title: "Segala jenis produk batu alam di Sumber Alam Bali",
     description:
       "Toko Batu Alam Terlengkap di bali, kami menyediakan segala jenis batu alam palimanan, candi, andesit, pilah, marmer, ",
     image:

@@ -12,7 +12,7 @@ function index({ item, height }) {
               <img
                 className="w-full rounded-t"
                 src={item.thumbnail ? item.thumbnail : "/images/home-img1.jpg"}
-                alt="Sunset in the mountains"
+                alt={item.title}
               />
 
               <div className="py-8 px-4 bg-white  rounded-b-md fd-cl">
