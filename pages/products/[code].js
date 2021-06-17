@@ -1,22 +1,22 @@
 import React, { useEffect, useContext } from "react";
 import { useRouter } from "next/router";
-import Layout from "components/layout";
+import Layout from "../../components/layout";
 // import NoData from "components/NoData";
-import styles from "styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 // import { useAppContext } from "context/state";
-import Image from "next/image";
-import dataProducts from "context/dataProducts.json";
+// import Image from "next/image";
+import dataProducts from "../../context/dataProducts.json";
 
 export default function ProductDetail({ title, description, image }) {
   const router = useRouter();
   const { code } = router.query;
   // const { dataProducts } = useAppContext();
 
-  useEffect(() => {
-    console.log("dataProducts", dataProducts);
-    // console.log("props", props);
-    console.log("code", code);
-  }, []);
+  // useEffect(() => {
+  // console.log("dataProducts", dataProducts);
+  // console.log("props", props);
+  // console.log("code", code);
+  // }, []);
 
   const pageMeta = {
     title: title,
@@ -26,9 +26,9 @@ export default function ProductDetail({ title, description, image }) {
 
   // If the page is not yet generated, this will be displayed
   // initially until getStaticProps() finishes running
-  if (router.isFallback) {
-    return <div>Loading Page Data...</div>;
-  }
+  // if (router.isFallback) {
+  //   return <div>Loading Page Data...</div>;
+  // }
 
   return (
     <Layout pageMeta={pageMeta}>
@@ -153,14 +153,14 @@ export default function ProductDetail({ title, description, image }) {
                           <div className="flex items-center w-full bg-gray-300">
                             <div className="p-2 mr-3 ">
                               <img
-                                src="/icon/phone.png"
+                                src="https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/phone.png?raw=true"
                                 alt={"chat"}
                                 height={32}
                                 width={32}
                               />
                               {/* <Image
                                 priority
-                                src="/icon/phone.png"
+                                src="https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/phone.png?raw=true"
                                 height={32}
                                 width={32}
                                 alt={"chat"}
@@ -219,7 +219,7 @@ export async function getStaticPaths() {
   });
 
   console.log("dataProduct", dataProducts.length);
-  return { paths, fallback: true };
+  return { paths, fallback: false };
 }
 
 // This function gets called at build time on server-side.

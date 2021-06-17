@@ -1,10 +1,10 @@
 import SEO from "../seo";
 // import Navigation from "../components/Navigation";
-import NavBar from "components/header";
-import Footer from "components/footer";
+import NavBar from "../header";
+import Footer from "../footer";
 
 // import styles from "./Layout.module.css";
-import styles from "styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 
 export default function Layout({ children, pageMeta }) {
   return (

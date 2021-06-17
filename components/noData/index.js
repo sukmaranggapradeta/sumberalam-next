@@ -7,7 +7,10 @@ function index({ setSearchInput }) {
   return (
     <div className=" mb-0 flex justify-center flex-col text-center">
       <div className="my-4 d-flex justify-center">
-        <img src="images/no_data.svg" alt="no-data" />
+        <img
+          src="https://raw.githubusercontent.com/sukmaranggapradeta/sumberalam_img/17a80124ee67b536cb8b654e99bf6389dac8b945/no_data.svg"
+          alt="no-data"
+        />
       </div>
 
       <p>Not Data Found</p>

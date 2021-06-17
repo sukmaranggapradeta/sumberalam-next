@@ -1,10 +1,10 @@
 import React from "react";
 
-import styles from "styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 
-import { useAppContext } from "context/state";
+import { useAppContext } from "../../context/state";
 
-import Layout from "components/layout";
+import Layout from "../../components/layout";
 
 export default function contact() {
   const { dataSosmed } = useAppContext();
@@ -41,7 +41,7 @@ export default function contact() {
                   <div className="flex items-center my-1">
                     <div className="my-2 mr-3 flex-none">
                       <img
-                        src={`icon/${item.icon}`}
+                        src={item.icon}
                         alt={item.name}
                         height={32}
                         width={32}

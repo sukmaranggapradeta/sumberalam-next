@@ -8,38 +8,38 @@ export function AppWrapper({ children }) {
       {
         code: "sosmed",
         name: "youtubeIcon",
-        icon: "youtube.png",
+        icon: "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/youtube.png?raw=true",
         url: "https://www.youtube.com/channel/UCCB77cYeLpq_Ou4zBmSNBxQ?view_as=subscriber",
       },
       {
         code: "sosmed",
         name: "instagramIcon",
-        icon: "instagram.png",
+        icon: "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/instagram.png?raw=true",
         url: "https://www.instagram.com/sumberalamii/",
       },
       {
         code: "contact",
         name: "+628123623566 - Bapak Budhi",
-        icon: "phone.png",
+        icon: "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/phone.png?raw=true",
         url: "https://api.whatsapp.com/send?phone=628123623566&text=&source=&data=",
       },
       {
         code: "contact",
         name: "+628124641050 - Ibu Sri",
-        icon: "phone.png",
+        icon: "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/phone.png?raw=true",
         url: "https://api.whatsapp.com/send?phone=628124641050&text=&source=&data=",
       },
       {
         code: "contact",
         name: "+6281339085220 - Rangga",
-        icon: "phone.png",
+        icon: "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/phone.png?raw=true",
         url: "https://api.whatsapp.com/send?phone=6281805677132&text=&source=&data=",
       },
 
       {
         code: "email",
         name: "adit.netral@gmail.com",
-        icon: "gmail.png",
+        icon: "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/gmail.png?raw=true",
         url: null,
       },
       {
@@ -47,7 +47,7 @@ export function AppWrapper({ children }) {
         name: "Sumber Alam - Jl. Prof. Dr. Ida Bagus Mantra No.9x, Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
         address:
           "Jl. Prof. Dr. Ida Bagus Mantra No.9x, Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
-        icon: "location.png",
+        icon: "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/location.png?raw=true",
         url: "https://goo.gl/maps/khviC8mppjVxsZ8M8",
       },
       {
@@ -55,7 +55,7 @@ export function AppWrapper({ children }) {
         name: "Watu Alam - Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
         address:
           "Kesiman Kertalangu, Kec. Denpasar Tim., Kota Denpasar, Bali 80237",
-        icon: "location.png",
+        icon: "https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/icon/location.png?raw=true",
         url: "https://goo.gl/maps/ru8SRoDScAzSF3oa6",
       },
     ],

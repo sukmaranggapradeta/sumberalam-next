@@ -1,6 +1,6 @@
-import Layout from "components/layout";
+import Layout from "../components/layout";
 
-import styles from "styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const pageMeta = {
@@ -15,7 +15,10 @@ export default function Home() {
     <Layout pageMeta={pageMeta}>
       <div className="flex flex-col-reverse md:flex-row space-x-0 md:space-x-4 ">
         <div className="flex bg-red-200  w-auto md:w-2/5">
-          <img src="images/home-img1.jpg" alt="sumber alam" />
+          <img
+            src="https://github.com/sukmaranggapradeta/sumberalam_img/blob/main/home-img1.jpg?raw=true"
+            alt="sumber alam"
+          />
         </div>
         <div className="flex flex-col w-auto md:w-3/5">
           <div className="flex flex-col w-auto">

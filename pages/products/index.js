@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Layout from "components/layout";
+import Layout from "../../components/layout";
 
-import CardProduct from "components/cardLama";
-import NoData from "components/noData";
+import CardProduct from "../../components/cardLama";
+import NoData from "../../components/noData";
 
 // import { useAppContext } from "context/state";
 
-import dataProducts from "context/dataProducts.json";
+import dataProducts from "../../context/dataProducts.json";
 
 // export async function getStaticProps() {
 //   const { dataSosmed } = useAppContext();
